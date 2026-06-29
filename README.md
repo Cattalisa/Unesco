@@ -1,5 +1,5 @@
-diambil
---
+Tutorial:
+- diambil
 - buat VENV (Virtual Environment)
 - diterminal yang venv jalankan cd backend
 - running requirements.txt
