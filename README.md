@@ -1,8 +1,15 @@
 Tutorial:
 - diambil
-- buat VENV (Virtual Environment)
+- buat VENV (Virtual Environment) =
+- python -m venv .venv
+- .\.venv\Scripts\Activate.ps1
+-
+- 
 - diterminal yang venv jalankan cd backend
-- running requirements.txt
+- 
+- running requirements.txt =
+- pip install -r requirements.txt
+- 
 - (kalau gagal coba cek log, paling ada masalah di version)
-- tinggal jalanin main.py buat ke uvicorn (opsional)
+- tinggal jalanin python main.py buat ke uvicorn (opsional)
 - kalau mau lanjut (yang penting uvicorn udah jalan di bg) masuk ke chrome://extention, pencet load unpack, pilih folder frontend nya
