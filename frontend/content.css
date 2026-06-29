@@ -1,0 +1,26 @@
+/* Style for highlighted manipulative text */
+.mg-highlight {
+  background-color: rgba(245, 158, 11, 0.18) !important;
+  border-bottom: 2.5px dashed #f59e0b !important;
+  cursor: pointer !important;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  border-radius: 3px !important;
+  padding: 1px 2px !important;
+}
+
+.mg-highlight:hover {
+  background-color: rgba(245, 158, 11, 0.3) !important;
+  box-shadow: 0 0 10px rgba(245, 158, 11, 0.4) !important;
+  text-shadow: 0 0 1px rgba(255,255,255,0.2) !important;
+}
+
+/* High severity manipulation */
+.mg-highlight-danger {
+  background-color: rgba(239, 68, 68, 0.18) !important;
+  border-bottom: 2.5px dashed #ef4444 !important;
+}
+
+.mg-highlight-danger:hover {
+  background-color: rgba(239, 68, 68, 0.3) !important;
+  box-shadow: 0 0 10px rgba(239, 68, 68, 0.4) !important;
+}
