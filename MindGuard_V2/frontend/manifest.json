@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "MindGuard AI",
+  "version": "2.0.0",
+  "description": "Premium AI-Powered Emotional Manipulation Detector",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "sidePanel"
+  ],
+  "action": {
+    "default_popup": "index.html"
+  },
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "background": {
+    "service_worker": "src/background.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["src/content.js"]
+    }
+  ]
+}
